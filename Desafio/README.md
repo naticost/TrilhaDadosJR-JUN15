@@ -13,6 +13,28 @@ Os dados estão armazenados no arquivo `vendas_cursos.csv` e incluem as seguinte
 - **Preço Unitário**: Preço por unidade do curso.
 - **Data**: Data da venda.
 
+## Bibliotecas Utilizadas 📚
+Foram utilizadas as seguintes bibliotecas Python para análise e visualização de dados:
+
+pandas: Utilizada para manipulação e análise dos dados tabulares, carregando os dados do arquivo CSV e realizando operações como cálculos de receita total e estatísticas descritivas.
+
+matplotlib.pyplot: Usada para criar gráficos como o de barras e de dispersão, permitindo visualizar os dados de forma clara e informativa.
+
+seaborn: Utilizada para melhorar a estética dos gráficos, aplicando paletas de cores e facilitando a criação de gráficos estatísticos.
+
+## Explicações das Funcionalidades 📝
+
+- **Carregamento de Dados**: Utilização do pandas para carregar e manipular os dados do arquivo CSV `vendas_cursos.csv`.
+
+- **Estatísticas Descritivas**: Utilização de `df.describe()` para calcular estatísticas básicas como média, desvio padrão, mínimo e máximo das quantidades de vendas e preços unitários.
+
+- **Cálculo da Receita Total**: Multiplicação das quantidades de vendas pelos preços unitários para calcular a receita total gerada.
+
+- **Identificação do Curso Mais Vendido**: Utilização de `idxmax()` para encontrar o índice do curso com o maior número de vendas e `max()` para obter esse número.
+
+- **Visualizações**: Criação de gráficos de barras e de dispersão usando matplotlib e seaborn para visualizar o número de vendas por curso e a relação entre quantidade de vendas e preço unitário, respectivamente.
+
+
 ## Análise Realizada 📈
 
 ### Estatísticas Básicas e Receita Total
