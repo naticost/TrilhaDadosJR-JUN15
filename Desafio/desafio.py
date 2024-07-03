@@ -7,3 +7,7 @@ print(df.head())
 
 print("\nInformações básicas do conjunto de dados:")
 print(df.info())
+
+print("\nEstatísticas descritivas:")
+print(df.describe())
+
