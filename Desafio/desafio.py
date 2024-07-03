@@ -15,3 +15,8 @@ df['Receita'] = df['Quantidade de Vendas'] * df['Preço Unitário']
 receita_total = df['Receita'].sum()
 print(f"\nReceita total gerada: R$ {receita_total:.2f}")
 
+curso_mais_vendido = df.loc[df['Quantidade de Vendas'].idxmax()]['Nome do Curso']
+vendas_curso_mais_vendido = df['Quantidade de Vendas'].max()
+print(f"\nCurso com maior número de vendas: {curso_mais_vendido} ({vendas_curso_mais_vendido} vendas)")
+
+
