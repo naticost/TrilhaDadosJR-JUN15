@@ -31,7 +31,7 @@ Um gráfico de barras foi criado para mostrar o número de vendas para cada curs
 
 Um gráfico de dispersão foi utilizado para visualizar a relação entre a quantidade de vendas e o preço unitário de cada curso. Cada ponto no gráfico representa um curso, colorido de acordo com o nome do curso usando a paleta de cores 'Set2'.
 
-![Relação entre Quantidade de Vendas e Preço Unitário](relacao_vendas_preco.png)
+![Relação entre Quantidade de Vendas e Preço Unitário](https://github.com/naticost/TrilhaDadosJR-JUN15/blob/main/Desafio/imagem/relacao_vendas_preco.png)
 
 ## Conclusões
 
