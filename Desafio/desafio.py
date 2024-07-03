@@ -11,3 +11,7 @@ print(df.info())
 print("\nEstatísticas descritivas:")
 print(df.describe())
 
+df['Receita'] = df['Quantidade de Vendas'] * df['Preço Unitário']
+receita_total = df['Receita'].sum()
+print(f"\nReceita total gerada: R$ {receita_total:.2f}")
+
