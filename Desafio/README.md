@@ -25,7 +25,7 @@ Foram calculadas estatísticas descritivas dos dados, como média, desvio padrã
 
 Um gráfico de barras foi criado para mostrar o número de vendas para cada curso. As barras são coloridas usando a paleta de cores 'viridis' do seaborn.
 
-![Número de Vendas por Curso](num_vendas_por_curso.png)
+![Número de Vendas por Curso](https://github.com/naticost/TrilhaDadosJR-JUN15/blob/main/Desafio/imagem/num_vendas_por_curso.png)
 
 #### Relação entre Quantidade de Vendas e Preço Unitário
 
